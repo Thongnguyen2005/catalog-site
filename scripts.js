@@ -24,16 +24,18 @@
  */
 
 
-const FRESH_PRINCE_URL = "https://upload.wikimedia.org/wikipedia/en/3/33/Fresh_Prince_S1_DVD.jpg";
-const CURB_POSTER_URL = "https://m.media-amazon.com/images/M/MV5BZDY1ZGM4OGItMWMyNS00MDAyLWE2Y2MtZTFhMTU0MGI5ZDFlXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_FMjpg_UX1000_.jpg";
-const EAST_LOS_HIGH_POSTER_URL = "https://static.wikia.nocookie.net/hulu/images/6/64/East_Los_High.jpg";
+const FRESH_PRINCE_URL = "https://hips.hearstapps.com/hmg-prod/images/2024-bmw-m3-110-1674509061.jpg?crop=0.760xw:0.642xh;0.0641xw,0.243xh&resize=2048:*";
+const CURB_POSTER_URL = "https://media.ed.edmunds-media.com/porsche/cayenne/2024/oem/2024_porsche_cayenne_4dr-suv_base_fq_oem_1_600.jpg";
+const EAST_LOS_HIGH_POSTER_URL = "https://www.motortrend.com/uploads/2021/12/2021-Mercedes-AMG-G63-27.jpg";
 
 // This is an array of strings (TV show titles)
 let titles = [
-    "Fresh Prince of Bel Air",
-    "Curb Your Enthusiasm",
-    "East Los High"
+    "BMW M3",
+    "Porsche Canyenne",
+    "Mercedes G63"
 ];
+
+titles.sort()
 // Your final submission should have much more data than this, and 
 // you should use more than just an array of strings to store it all.
 
@@ -42,9 +44,9 @@ let titles = [
 function showCards() {
     const cardContainer = document.getElementById("card-container");
     cardContainer.innerHTML = "";
-    const templateCard = document.querySelector(".card");
+    const templateCard = document.querySelector(".card"); // get the first element from class card
     
-    for (let i = 0; i < titles.length; i++) {
+    for (let i = 0; i < titles.length; i++) { // the number of cards depend on the number of titles
         let title = titles[i];
 
         // This part of the code doesn't scale very well! After you add your
@@ -62,6 +64,7 @@ function showCards() {
         editCardContent(nextCard, title, imageURL); // Edit title and image
         cardContainer.appendChild(nextCard); // Add new card to the container
     }
+    
 }
 
 function editCardContent(card, newTitle, newImageURL) {
