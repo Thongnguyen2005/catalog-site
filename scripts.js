@@ -119,7 +119,7 @@ function showCars() //This function show the cars to users
 
         const car = templateCar.cloneNode(true);                  //copy the template car
         editCarContent(car, carName, brand, color, model, image); //call function to edit car information
-        carContainer.appendChild(car);                            //add new car to the container
+        carContainer.prepend(car);                            //add new car to the container
     }
     
 }
