@@ -10,13 +10,38 @@
 
 <body>
     <header class="main-header">
-        <h1 class="title">Your Favorite Car Garage</h1>
+        <h1 class="title">Thong's Car Garage</h1>
     </header>
-    <div id="card-container">
+
+    <div class="header">
+        <div class="operation">
+            <button onclick="removeLastCar();">
+                Remove A Car
+            </button>
+            <button onclick="addCars();">
+                Add New Car
+            </button>
+            <button onclick="retrievePreviousCar();">
+                Retrieve the car
+            </button>
+        </div>
+
+        <div class="filter">
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterCar('all')"> Show all</button>
+                <button class="btn" onclick="filterCar('mercedes')"> Mercedes</button>
+                <button class="btn" onclick="filterCar('bmw')"> BMW</button>
+                <button class="btn" onclick="filterCar('porsche')"> Porsche</button>
+                <button class="btn" onclick="filterCar('ferrari')"> Ferrari</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="car-container">
         
     </div>
-    <div class="card" style="display: none;">
-        <div class="card-content">
+    <div class="car" style="display: none;">
+        <div class="car-content">
             <h2>Your Favorite Car Garage</h2>
             <img src="" alt="Car Picture">
             <ul>
@@ -25,14 +50,6 @@
                 <li>Color</li>
             </ul>
         </div>
-    </div>
-    <div class="footer">
-        <button onclick="quoteAlert();">
-            Get A Quote!
-        </button>
-        <button onclick="removeLastCard();">
-            Remove A Card!
-        </button>
     </div>
 </body>
 
