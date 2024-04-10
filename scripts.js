@@ -25,26 +25,26 @@ const MEC_GLC300          = "https://cdn.jdpower.com/JDPA_2020%20Mercedes-Benz%2
 const MEC_GLE             = "https://di-uploads-pod1.dealerinspire.com/mercedesbenzofmilwaukeenorth/uploads/2023/07/2024-Mercedes-Benz-GLE.jpg";
 
 //OBJECTS
-const car1  = new Car("Mercedes G63"      , "Mercedes", "Blue"  , "2024" , G63_URL);
-const car2  = new Car("BMW M3"            , "BMW"     , "Green" , "2023" , M3_URL);
-const car3  = new Car("Porsche Cayenne"   , "Porsche" , "Blue"  , "2022" , PORSCHE_CANYENN_URL);
-const car4  = new Car("Porsche 911 GT3 RS", "Porsche" , "White" , "2018" , GT3RS_911);
-const car5  = new Car("Mercedes C63 AMG"  , "Mercedes", "Black" , "2020" , C63_AMG);
-const car6  = new Car("Ferrari SF90"      , "Ferrari" , "Red"   , "2024" , SF90_FERRARI);
-const car7  = new Car("Ferrari Roma"      , "Ferrari" , "Grey"  , "2023" , ROMA_FERRARI );
-const car8  = new Car("Ferrari GTS 812"   , "Ferrari" , "Black" , "2015" , GTS812_FERRARI);
-const car9  = new Car("Porsche Spyder 918", "Porsche" , "Grey"  , "2014" , SPY918_PORSCHE);
-const car10 = new Car("BMW M5"            , "BMW"     , "Red"   , "2020" , M5_BMW);
-const car11 = new Car("BMW X3M"           , "BMW"     , "Blue"  , "2024" , X3M_BMW);
-const car12 = new Car("Mercedes Maybach"  , "Mercedes", "Black" , "2021" , MEC_MAYBACH);
-const car13  = new Car("Mercedes EQS"      , "Mercedes", "White" , "2022", MEC_EQS);
-const car14  = new Car("Porsche Macan"     , "Porsche" , "Blue"  , "2024", PORSCHE_MACAN);
-const car15  = new Car("Porsche Panamera"  , "Porsche" , "Orange", "2021", PORSCHE_PANAMERA);
-const car16  = new Car("Porsche 944"       , "Porsche" , "White" , "1982", PORSCHE_944);
-const car17  = new Car("Ferrari F40"       , "Ferrari" , "Red"   , "1991", FERRARI_F40);
-const car18  = new Car("BMW X7"            , "BMW"     , "Blue"  , "2025", X7_BMW);
-const car19  = new Car("Mercedes GLC 300"  , "Mercedes", "Black" , "2020", MEC_GLC300 );
-const car20  = new Car("Mercedes GLE"      , "Mercedes", "Black" , "2024", MEC_GLE);
+const car1   = new Car("Mercedes G63"      , "Mercedes", "Blue"  , "2024" , G63_URL);
+const car2   = new Car("BMW M3"            , "BMW"     , "Green" , "2023" , M3_URL);
+const car3   = new Car("Porsche Cayenne"   , "Porsche" , "Blue"  , "2022" , PORSCHE_CANYENN_URL);
+const car4   = new Car("Porsche 911 GT3 RS", "Porsche" , "White" , "2018" , GT3RS_911);
+const car5   = new Car("Mercedes C63 AMG"  , "Mercedes", "Black" , "2020" , C63_AMG);
+const car6   = new Car("Ferrari SF90"      , "Ferrari" , "Red"   , "2024" , SF90_FERRARI);
+const car7   = new Car("Ferrari Roma"      , "Ferrari" , "Grey"  , "2023" , ROMA_FERRARI );
+const car8   = new Car("Ferrari GTS 812"   , "Ferrari" , "Black" , "2015" , GTS812_FERRARI);
+const car9   = new Car("Porsche Spyder 918", "Porsche" , "Grey"  , "2014" , SPY918_PORSCHE);
+const car10  = new Car("BMW M5"            , "BMW"     , "Red"   , "2020" , M5_BMW);
+const car11  = new Car("BMW X3M"           , "BMW"     , "Blue"  , "2024" , X3M_BMW);
+const car12  = new Car("Mercedes Maybach"  , "Mercedes", "Black" , "2021" , MEC_MAYBACH);
+const car13  = new Car("Mercedes EQS"      , "Mercedes", "White" , "2022" , MEC_EQS);
+const car14  = new Car("Porsche Macan"     , "Porsche" , "Blue"  , "2024" , PORSCHE_MACAN);
+const car15  = new Car("Porsche Panamera"  , "Porsche" , "Orange", "2021" , PORSCHE_PANAMERA);
+const car16  = new Car("Porsche 944"       , "Porsche" , "White" , "1982" , PORSCHE_944);
+const car17  = new Car("Ferrari F40"       , "Ferrari" , "Red"   , "1991" , FERRARI_F40);
+const car18  = new Car("BMW X7"            , "BMW"     , "Blue"  , "2025" , X7_BMW);
+const car19  = new Car("Mercedes GLC 300"  , "Mercedes", "Black" , "2020" , MEC_GLC300 );
+const car20  = new Car("Mercedes GLE"      , "Mercedes", "Black" , "2024" , MEC_GLE);
 
 
 //ORIGINAL GARAGE (the garage of cars that are currently available for users)
